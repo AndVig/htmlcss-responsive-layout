@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+
+}
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.space{
+    justify-content: space-between;
+}
+.col-small{
+    width: 100%;
+}
+.col-big{
+    width: 100%;
+}
+.head-container{
+    width: 100%;
+    margin: 0 auto;
+}
+/*Colors*/
+.blue{
+    color:dodgerblue;
+}
+.l-blue{
+    color:lightskyblue;
+}
+.purple{
+    color:mediumpurple;
+}
+.gold{
+    color:gold
+}
+.gray{
+    color: dimgray;
+}
