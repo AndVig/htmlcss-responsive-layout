@@ -9,8 +9,17 @@ header{
     
     
 }
-
-
+footer{
+    background-color: dimgray;
+}
+footer .container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+footer .container .col-small{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .container{
     width: 80%;
@@ -26,17 +35,25 @@ header{
 .space{
     justify-content: space-between;
 }
+.img{
+    width: 100%;
+    height: 150px;
+    margin-top: 1rem;
+}
 .col-small{
     width: 100%;
     height: 100px;
     border-radius: 5px;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+
 }
 .col-big{
     width: 100%;
     height: 200px;
     border-radius: 5px;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 
 }
 .header-container{
@@ -61,11 +78,17 @@ header{
 .purple{
     color:mediumpurple;
 }
+.purple-bg{
+    background-color: mediumpurple;
+}
 .gold{
     color:gold
 }
 .gray{
     color: dimgray;
+}
+.white-bg{
+    background-color: white;
 }
 .white{
     color: white;
