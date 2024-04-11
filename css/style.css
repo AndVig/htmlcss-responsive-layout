@@ -31,6 +31,11 @@ footer .container .col-small{
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.container-small{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
 .row{
     display: flex;
 }
@@ -46,7 +51,6 @@ footer .container .col-small{
 }
 .quote{
     position: absolute;
-    left: 14rem;
     font-size: 5rem;
 }
 .img{
@@ -70,6 +74,9 @@ footer .container .col-small{
 .avatar2{
     width: 200px;
     border-radius: 50%;
+}
+.linkedin{
+    padding-left: 10%;
 }
 .col-small{
     width: 100%;
@@ -107,6 +114,13 @@ footer .container .col-small{
     border-radius: 20px;
     border-color: #9593e6;
     border-style: solid;
+
+}
+.col-small-5{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -230,6 +244,13 @@ h4{
         border-style: solid;
     
     }
+    .col-small-5{
+        width: 50%;
+        border-radius: 20px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    
+    }
     .img{
         height: 20rem;
         padding-left: 3rem;
@@ -245,6 +266,13 @@ h4{
         border-radius: 20px;
         border-color: #9593e6;
         border-style: solid;
+    
+    }
+    .col-small-5{
+        width: 50%;
+        border-radius: 20px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     
     }
     
