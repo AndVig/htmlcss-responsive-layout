@@ -142,6 +142,17 @@ button{
     margin-top: 1rem;
    margin-bottom: 1rem;
 }
+.lista{
+    display: none;
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
 /*Text*/
 .l-align{
     text-align: left;
@@ -275,6 +286,13 @@ h4{
         margin-top: 1rem;
         margin-bottom: 1rem;
     
+    }
+    .header-size{
+        display: none;
+    }
+    .lista{
+        margin-top: 13px ;
+        display: contents;
     }
     
 }
