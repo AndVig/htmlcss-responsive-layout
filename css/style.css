@@ -44,6 +44,11 @@ footer .container .col-small{
 .space{
     justify-content: space-between;
 }
+.quote{
+    position: absolute;
+    left: 14rem;
+    font-size: 5rem;
+}
 .img{
     width: 100%;
     margin-top: 1rem;
@@ -64,8 +69,6 @@ footer .container .col-small{
 }
 .avatar2{
     width: 200px;
-    height: 200px;
-    flex-shrink: 0;
     border-radius: 50%;
 }
 .col-small{
